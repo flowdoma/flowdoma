@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 
 const categories = ["All", "Prompt Packs", "Notion Templates", "Automation", "PDF Guides", "Services"];
