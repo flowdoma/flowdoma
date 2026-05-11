@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  staticPageGenerationTimeout: 180,
+  experimental: {
+    workerThreads: false,
+    cpus: 1,
+  },
+};
 
 module.exports = nextConfig;

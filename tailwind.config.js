@@ -8,9 +8,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        display: ["'Syne'", "sans-serif"],
-        body: ["'DM Sans'", "sans-serif"],
-        mono: ["'JetBrains Mono'", "monospace"],
+        display: ["var(--font-syne)", "sans-serif"],
+        body: ["var(--font-dm-sans)", "sans-serif"],
+        mono: ["var(--font-jetbrains)", "monospace"],
       },
       colors: {
         bg: "#080B11",
